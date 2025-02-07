@@ -1,3 +1,49 @@
+Ejercicio 1
+
+## 1. Representación de datos en una computadora  
+
+Las computadoras representan los datos mediante un sistema binario, es decir, utilizando combinaciones de ceros y unos. Cuando ingresamos información, como números, letras o imágenes, esta se convierte en señales eléctricas que corresponden a estados de encendido (1) y apagado (0). Los números se almacenan en formato binario, las letras se codifican con estándares como ASCII o Unicode, y las imágenes se representan mediante mapas de bits, donde cada píxel tiene un valor asociado a su color. Todo esto es procesado por la unidad central de procesamiento (CPU) y almacenado en la memoria o en discos duros para su uso posterior.  
+
+## 2. Número de estados diferentes representados por N variables binarias  
+
+El número de estados diferentes que pueden representarse con **N** variables binarias se calcula mediante la fórmula:  
+
+\[
+Estados = 2^N
+\]
+
+Esto significa que **1** bit se puede representar con **2** estados (0 y 1),  **2** bits se puede representar con **4** estados (00, 01, 10, 11), **3** bits podemse puede representar con **8** estados, y así sucesivamente. Cada bit adicional duplica la cantidad de estados posibles.  
+
+Por ejemplo:  
+- 4 bits → \(2^4 = 16\) estados  
+- 8 bits → \(2^8 = 256\) estados  
+- 16 bits → \(2^{16} = 65,536\) estados  
+
+
+## 3. Unidades de almacenamiento en computación  
+
+| **Unidad**   | **Abreviación** | **Equivalencia** |
+|-------------|---------------|----------------|
+| Bit         | `b`           | 1 bit |
+| Byte        | `B`           | 8 bits |
+| KiloByte    | `KB`          | 1,024 Bytes |
+| MegaByte    | `MB`          | 1,024 KB |
+| GigaByte    | `GB`          | 1,024 MB |
+| TeraByte    | `TB`          | 1,024 GB |
+| PetaByte    | `PB`          | 1,024 TB |
+| ExaByte     | `EB`          | 1,024 PB |
+| ZettaByte   | `ZB`          | 1,024 EB |
+| YottaByte   | `YB`          | 1,024 ZB |
+
+## 4. Importancia del trabajo de George Boole  
+
+George Boole fue un matemático británico que desarrolló el **Álgebra de Boole**, la base matemática de los sistemas digitales modernos. Su trabajo permitió la creación de circuitos lógicos y sistemas de computación que usan operaciones booleanas como AND, OR y NOT. Gracias a sus contribuciones, los computadores pueden procesar información en términos de valores binarios, facilitando el desarrollo de la informática y la tecnología digital.  
+
+
+
+
+Ejercicio 3
+
 | **Nombre del tipo**        | **Abreviación (si existe)** | **Lenguaje**     | **Tamaño (bytes)** | **Rango** |
 |---------------------------|----------------------------|----------------|----------------|-----------------------------|
 | Entero                   | `int`                      | C, Java        | 4              | -2,147,483,648 a 2,147,483,647 |
