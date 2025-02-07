@@ -1,0 +1,34 @@
+| **Nombre del tipo**        | **Abreviación (si existe)** | **Lenguaje**     | **Tamaño (bytes)** | **Rango** |
+|---------------------------|----------------------------|----------------|----------------|-----------------------------|
+| Entero                   | `int`                      | C, Java        | 4              | -2,147,483,648 a 2,147,483,647 |
+| Entero corto             | `short`                    | C, Java        | 2              | -32,768 a 32,767 |
+| Entero largo             | `long`                     | C, Java        | 8              | -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807 |
+| Entero sin signo         | `unsigned int`             | C              | 4              | 0 a 4,294,967,295 |
+| Entero grande            | `long long`                | C              | 8              | -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807 |
+| Número decimal           | `float`                    | C, Java        | 4              | Aproximadamente ±3.4 × 10³⁸ (6-7 dígitos de precisión) |
+| Número decimal doble     | `double`                   | C, Java        | 8              | Aproximadamente ±1.8 × 10³⁰⁸ (15-16 dígitos de precisión) |
+| Número decimal extendido | `long double`              | C              | 10, 12 o 16 (según compilador) | Mayor precisión que `double` |
+| Número decimal           | No tiene abreviación       | Python         | 24+ (dinámico) | Precisión arbitraria, depende del hardware |
+| Número decimal           | `number`                   | JavaScript     | 8              | IEEE 754 de doble precisión |
+| Número decimal preciso   | `BigDecimal`               | Java           | Variable       | Precisión arbitraria, según asignación de memoria |
+| Entero grande            | `BigInt`                   | JavaScript     | Variable       | Precisión arbitraria |
+| Carácter                 | `char`                     | C, Java        | 1 (C), 2 (Java) | En C almacena un solo byte; en Java, soporta Unicode (2 bytes) |
+| Cadena de texto          | `string`                   | Java, JavaScript | Variable       | Depende de la longitud de la cadena |
+| Cadena de texto          | `char[]`                   | C              | Variable       | Depende de la longitud de la cadena más `\0` |
+| Cadena de texto          | `str`                      | Python         | Variable       | Depende de la longitud de la cadena |
+| Booleano                 | `bool`                     | C, Java, Python, JavaScript | 1 (C), 1 (Java), 28 (Python), 4 (JavaScript) | `true` o `false` (`0` o `1` en C) |
+| Valor vacío              | `void`                     | C, Java        | No aplica      | Indica ausencia de valor |
+| Valor indefinido         | `undefined`                | JavaScript     | No aplica      | Variable no inicializada |
+| Valor nulo               | `null`                     | Java, JavaScript | No aplica      | Indica ausencia de un objeto |
+| Cualquier tipo           | `Object`                   | Java, JavaScript | Variable       | Puede almacenar cualquier tipo de objeto |
+| Cualquier tipo           | `any`                      | TypeScript     | Variable       | Puede representar cualquier tipo de dato |
+| Lista/Matriz             | `Array`                    | Java, JavaScript, Python | Variable       | Depende de la cantidad de elementos |
+| Lista                    | `list`                     | Python         | Variable       | Colección mutable de elementos |
+| Conjunto                 | `set`                      | Python, Java   | Variable       | Colección de valores únicos |
+| Diccionario              | `dict`                     | Python         | Variable       | Colección de pares clave-valor |
+| Mapa                     | `Map`                      | JavaScript, Java | Variable       | Colección ordenada de claves y valores |
+| Tupla                    | `tuple`                    | Python         | Variable       | Similar a `list`, pero inmutable |
+| Elemento HTML            | `HTMLElement`              | JavaScript     | Variable       | Representa un elemento HTML en el DOM |
+
+
+[Link de donde se obtuvo la información](https://chatgpt.com/c/67a60a1e-5bd0-800a-b626-840b837766f9)
