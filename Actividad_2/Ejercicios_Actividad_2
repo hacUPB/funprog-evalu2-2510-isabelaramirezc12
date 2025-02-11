@@ -1,10 +1,10 @@
-Ejercicio 1
+## Ejercicio 1
 
-## 1. Representación de datos en una computadora  
+1. Representación de datos en una computadora  
 
 Las computadoras representan los datos mediante un sistema binario, es decir, utilizando combinaciones de ceros y unos. Cuando ingresamos información, como números, letras o imágenes, esta se convierte en señales eléctricas que corresponden a estados de encendido (1) y apagado (0). Los números se almacenan en formato binario, las letras se codifican con estándares como ASCII o Unicode, y las imágenes se representan mediante mapas de bits, donde cada píxel tiene un valor asociado a su color. Todo esto es procesado por la unidad central de procesamiento (CPU) y almacenado en la memoria o en discos duros para su uso posterior.  
 
-## 2. Número de estados diferentes representados por N variables binarias  
+2. Número de estados diferentes representados por N variables binarias  
 
 El número de estados diferentes que pueden representarse con **N** variables binarias se calcula mediante la fórmula:  
 
@@ -20,7 +20,7 @@ Por ejemplo:
 - 16 bits → \(2^{16} = 65,536\) estados  
 
 
-## 3. Unidades de almacenamiento en computación  
+3. Unidades de almacenamiento en computación  
 
 | **Unidad**   | **Abreviación** | **Equivalencia** |
 |-------------|---------------|----------------|
@@ -35,14 +35,14 @@ Por ejemplo:
 | ZettaByte   | `ZB`          | 1,024 EB |
 | YottaByte   | `YB`          | 1,024 ZB |
 
-## 4. Importancia del trabajo de George Boole  
+ 4. Importancia del trabajo de George Boole  
 
 George Boole fue un matemático británico que desarrolló el **Álgebra de Boole**, la base matemática de los sistemas digitales modernos. Su trabajo permitió la creación de circuitos lógicos y sistemas de computación que usan operaciones booleanas como AND, OR y NOT. Gracias a sus contribuciones, los computadores pueden procesar información en términos de valores binarios, facilitando el desarrollo de la informática y la tecnología digital.  
 
 
 
 
-Ejercicio 3
+## Ejercicio 3 y 4
 
 | **Nombre del tipo**        | **Abreviación (si existe)** | **Lenguaje**     | **Tamaño (bytes)** | **Rango** |
 |---------------------------|----------------------------|----------------|----------------|-----------------------------|
@@ -78,3 +78,6 @@ Ejercicio 3
 
 
 [Link de donde se obtuvo la información](https://chatgpt.com/c/67a60a1e-5bd0-800a-b626-840b837766f9)
+
+## Ejercicio 5
+
