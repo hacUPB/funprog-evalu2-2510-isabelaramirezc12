@@ -1,8 +1,8 @@
-## Ejercicio 1
+## Ejercicio 1 ✧˖°
 
 1. Representación de datos en una computadora  
 
-Las computadoras representan los datos mediante un sistema binario, es decir, utilizando combinaciones de ceros y unos. Cuando ingresamos información, como números, letras o imágenes, esta se convierte en señales eléctricas que corresponden a estados de encendido (1) y apagado (0). Los números se almacenan en formato binario, las letras se codifican con estándares como ASCII o Unicode, y las imágenes se representan mediante mapas de bits, donde cada píxel tiene un valor asociado a su color. Todo esto es procesado por la unidad central de procesamiento (CPU) y almacenado en la memoria o en discos duros para su uso posterior.  
+Los computadores representan los datos a través de un sistema binario, es decir, utilizando combinaciones de ceros y unos. Cuando se ingresa información, como números, letras o imágenes, esta se convierte en señales eléctricas que corresponden a estados de encendido (1) y apagado (0). Luego, los números se almacenan en formato binario, las letras se codifican con estándares como ASCII o Unicode, y las imágenes se representan mediante mapas de bits, donde cada píxel tiene un valor asociado a su color. Todo esto es procesado por la unidad central de procesamiento (CPU) y almacenado en la memoria o en discos duros para su uso posterior.  
 
 2. Número de estados diferentes representados por N variables binarias  
 
@@ -37,12 +37,60 @@ Por ejemplo:
 
  4. Importancia del trabajo de George Boole  
 
-George Boole fue un matemático británico que desarrolló el **Álgebra de Boole**, la base matemática de los sistemas digitales modernos. Su trabajo permitió la creación de circuitos lógicos y sistemas de computación que usan operaciones booleanas como AND, OR y NOT. Gracias a sus contribuciones, los computadores pueden procesar información en términos de valores binarios, facilitando el desarrollo de la informática y la tecnología digital.  
+George Boole fue un matemático británico que desarrolló el **Álgebra de Boole** (la base matemática de los sistemas digitales modernos). Su trabajo permitió la creación de circuitos lógicos y sistemas de computación que usan operaciones booleanas como AND, OR y NOT, y gracias a sus contribuciones, los computadores pueden procesar información en términos de valores binarios, facilitando el desarrollo de la informática y la tecnología digital.  
+
+## Ejercicio 2 ✧˖°
+
+| Posición     | 8   | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Equivalencia| 256 | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| **Número binario: 1010101010₂** |
+| Binario     | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 0   |
+| Decimal     | 512 | 0   | 128 | 0   | 32  | 0   | 8   | 0   | 2   | 0   |
+| **Resultado**: 682₁₀ |
+
+---
+
+| Posición     | 4   | 3   | 2   | 1   | 0   |
+|-------------|-----|-----|-----|-----|-----|
+| Equivalencia| 16  | 8   | 4   | 2   | 1   |
+| **Número binario: 11111₂** |
+| Binario     | 1   | 1   | 1   | 1   | 1   |
+| Decimal     | 16  | 8   | 4   | 2   | 1   |
+| **Resultado**: 31₁₀ |
+
+---
+
+| Posición     | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|
+| Equivalencia| 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| **Número binario: 10000000₂** |
+| Binario     | 1   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+| Decimal     | 128 | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+| **Resultado**: 128₁₀ |
+
+---
+
+| Posición     | 8   | 7   | 6   | 5   | 4   | 3   | 2   | 1   | 0   |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Equivalencia| 256 | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| **Número binario: 100100100₂** |
+| Binario     | 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   | 0   |
+| Decimal     | 256 | 0   | 0   | 32  | 0   | 0   | 4   | 0   | 0   |
+| **Resultado**: 292₁₀ |
+
+---
+
+| Posición     | 5   | 4   | 3   | 2   | 1   | 0   |
+|-------------|-----|-----|-----|-----|-----|-----|
+| Equivalencia| 32  | 16  | 8   | 4   | 2   | 1   |
+| **Número binario: 111000₂** |
+| Binario     | 1   | 1   | 1   | 0   | 0   | 0   |
+| Decimal     | 32  | 16  | 8   | 0   | 0   | 0   |
+| **Resultado**: 56₁₀ |
 
 
-
-
-## Ejercicio 3 y 4
+## Ejercicio 3 y 4 ✧˖°
 
 | **Nombre del tipo**        | **Abreviación (si existe)** | **Lenguaje**     | **Tamaño (bytes)** | **Rango** |
 |---------------------------|----------------------------|----------------|----------------|-----------------------------|
@@ -79,5 +127,18 @@ George Boole fue un matemático británico que desarrolló el **Álgebra de Bool
 
 [Link de donde se obtuvo la información](https://chatgpt.com/c/67a60a1e-5bd0-800a-b626-840b837766f9)
 
-## Ejercicio 5
+## Ejercicio 5 ✧˖°
 
+
+Cálculo del Espacio Ocupado por Cada Tipo de Dato
+
+
+| Tipo de Dato            | Tamaño por Registro | Número de Registros | Espacio Total (bytes) |
+|-------------------------|--------------------|---------------------|----------------------|
+| **Identificador numérico (int)** | 4 bytes | 8,640 | 34,560 bytes |
+| **Temperatura (float)** | 4 bytes | 8,640 | 34,560 bytes |
+| **Valor lógico (bool)** | 1 byte  | 8,640 | 8,640 bytes  |
+| **Texto (10 caracteres)** | 10 bytes | 8,640 | 86,400 bytes |
+
+( Cada número se multiplica respectivamente por 8,640 que es el equivalente de la división de 
+10 segundos por registro / 86,400 segundos = 8,640 registros )
