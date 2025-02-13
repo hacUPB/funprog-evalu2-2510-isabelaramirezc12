@@ -8,3 +8,9 @@ símbolos que se utilizan para representar cada operación de un algorimo con un
 
 ## Ejercicio 2
 Algoritmo con datos de un ID de un empleado y los seis primeros sueldos del año de este:
+
+
+## Ejercicio 2
+
+![alt text](image-2.png)
+
