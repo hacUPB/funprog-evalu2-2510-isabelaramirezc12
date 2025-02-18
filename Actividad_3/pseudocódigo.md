@@ -107,3 +107,9 @@ Escribir "El valor total a pagar con descuento es: " , y
 Fin
 
 ```
+
+- Ejercicio 3
+
+Diagrama de flujo
+
+![alt text](Hola.drawio.png)
