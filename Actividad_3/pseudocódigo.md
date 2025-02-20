@@ -10,8 +10,6 @@ símbolos que se utilizan para representar cada operación de un algorimo con un
 Algoritmo con datos de un ID de un empleado y los seis primeros sueldos del año de este:
 
 
-## Ejercicio 2
-
 ![alt text](image-2.png)
 
 ## Ejercicio 3
@@ -113,3 +111,7 @@ Fin
 Diagrama de flujo
 
 ![alt text](Hola.drawio.png)
+
+## Actividad de Evaluación: Comprensión de Conceptos
+
+
