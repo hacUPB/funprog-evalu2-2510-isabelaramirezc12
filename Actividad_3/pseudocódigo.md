@@ -163,8 +163,8 @@ Diagrama de flujo
 
 Las estructuras de control son las que permiten definir el flujo de un algoritmo, estableciendo condiciones y repeticiones.  
 
-*Ejemplo de la vida diaria:*  
+Ejemplo vida diaria:  
 Si está lloviendo, entonces debo llevar una sombrilla; si no, no debo llevarla.  
 
-*Ejemplo matemático:*  
+Ejemplo matemático:  
 Si el saldo en una cuenta es mayor a $500.000 pesos, se puede retirar dinero; si no, se muestra un mensaje de saldo insuficiente.
